@@ -1,0 +1,290 @@
+[
+  {
+    "id": "01",
+    "title": "Toxic Shame",
+    "description": "What you feel is not ordinary guilt for having done something wrong. It is a bone-deep sense that you yourself are wrong, bad, and undeserving of love.",
+    "mechanism": "When an emotional flashback is triggered, toxic shame often becomes the strongest and most central feeling. It frequently originates from early experiences of contempt, neglect, or verbal injury.",
+    "healingDirection": "Quiet the inner critic and practice self-compassion. Interrupt self-attack with healthy boundaries, and respond to the wounded part with your adult self.",
+    "safePractice": "When the self-attacking voice appears, gently label it: \"This is the inner critic.\" Place a hand on your chest and say: \"I am willing to begin treating myself differently.\""
+  },
+  {
+    "id": "02",
+    "title": "Fear in Emotional Flashback",
+    "description": "A single sentence or glance suddenly pulls you back into that small, frightened feeling. Your body reacts before your mind does—you want to flee or shrink.",
+    "mechanism": "When old fear is triggered by the present situation, the nervous system rapidly enters high arousal, producing intense unease or even panic.",
+    "healingDirection": "First recognize \"this may be an old wound being triggered,\" then use grounding to bring the body back to the present and build a sense that \"I am safe now.\"",
+    "safePractice": "Press both feet firmly into the ground. Slowly exhale while counting to four. Repeat several times, then quietly say: \"I am safe now. This is a memory.\""
+  },
+  {
+    "id": "03",
+    "title": "Despair in Emotional Flashback",
+    "description": "It feels like falling into a deep well—nothing you do will matter, nothing will get better. Your body wants to hide or becomes heavy and numb.",
+    "mechanism": "When despair becomes the main triggered feeling, people often enter a state of deep powerlessness and the urge to withdraw.",
+    "healingDirection": "Recognize that this is old helplessness being activated, not the whole of present reality. Use the smallest possible action to restore a little sense of \"I can still choose.\"",
+    "safePractice": "Write down \"I am still here,\" then do one tiny completable thing (drink water, open a window, stand and take two steps)."
+  },
+  {
+    "id": "04",
+    "title": "Helplessness & Powerlessness",
+    "description": "You feel you can do nothing, as if pinned in place. You know what should be done yet cannot move.",
+    "mechanism": "During intense emotional activation, people often re-experience the smallness and powerlessness of childhood. Trauma also weakens the sense that \"I can influence outcomes.\"",
+    "healingDirection": "Rebuild agency through tiny choices that are fully under your control.",
+    "safePractice": "Move a finger or a toe. Feel \"I can still control this small part of my body,\" then do one small thing decided entirely by you."
+  },
+  {
+    "id": "05",
+    "title": "Small, Young & Vulnerable",
+    "description": "Suddenly you feel very small and young, like a child who needs protection yet has no one to protect them.",
+    "mechanism": "When old wounds are triggered, body and mind easily regress to the state of early threat.",
+    "healingDirection": "Respond to that young part with your adult self, letting it know \"I am here now.\"",
+    "safePractice": "Gently place a hand on your heart or arm and say to the young part inside: \"I see you. I am here.\""
+  },
+  {
+    "id": "06",
+    "title": "Abandonment Depression",
+    "description": "When things grow quiet, emptiness and pain rise up—like reaching the dead end of a blind alley, helpless and hopeless.",
+    "mechanism": "This deep emptiness and pain often relate to early emotional neglect or abandonment, and surface more easily when alone.",
+    "healingDirection": "Keep company with the emptiness instead of rushing to fill or escape it. Allow the process of mourning to unfold slowly.",
+    "safePractice": "Place a hand on your chest and say: \"I am willing to stay with this emptiness rather than immediately flee or fill it.\" Allow yourself a few quiet moments."
+  },
+  {
+    "id": "07",
+    "title": "Complex Abandonment",
+    "description": "Shame, fear and melancholy tangle together, making you both want closeness and want to run. The inside feels chaotic.",
+    "mechanism": "When multiple old emotions are triggered at once, people often fall into the contradiction of longing for connection while fearing injury.",
+    "healingDirection": "Name the feelings first, then look at them separately instead of being overwhelmed by the whole mass.",
+    "safePractice": "On paper write \"shame,\" \"fear,\" and \"melancholy\" separately, then tell yourself: \"They can exist at the same time. For now I am only looking.\""
+  },
+  {
+    "id": "08",
+    "title": "Self-Hatred / Self-Loathing",
+    "description": "It is not merely dislike of yourself. It is a visceral aversion and the urge to attack yourself.",
+    "mechanism": "When the inner critic becomes extreme, people develop intense aversion and aggression toward themselves.",
+    "healingDirection": "Identify and label the inner critic, and redirect the aggression away from yourself.",
+    "safePractice": "When self-attack appears, clearly say: \"This is the inner critic.\" Then place a hand on your chest and remind yourself: \"I deserve to be treated more gently.\""
+  },
+  {
+    "id": "09",
+    "title": "Self-Abandonment",
+    "description": "You always put others first. You may not even notice when you are hungry, tired or in pain—essentially abandoning yourself.",
+    "mechanism": "If you were long neglected early on, it is easy to learn to satisfy others first and lose awareness of your own needs.",
+    "healingDirection": "Re-learn to bring \"yourself\" back into view, starting with small bodily signals.",
+    "safePractice": "Ask yourself three questions: \"Am I hungry? Tired? Do I need rest?\" Then respond to at least one of them."
+  },
+  {
+    "id": "10",
+    "title": "Inner Critic Attack",
+    "description": "That voice in your head that constantly finds fault and says you are not good enough is often the internalization of early criticism.",
+    "mechanism": "The inner critic usually comes from the attitudes of important early figures. It tries to \"protect\" you by attacking you, at the cost of ongoing self-depletion.",
+    "healingDirection": "Notice its appearance with mindfulness, then interrupt it with gentle firmness.",
+    "safePractice": "When it appears, first name it \"This is the inner critic,\" then interrupt with a short sentence: \"I do not need to treat myself this way.\""
+  },
+  {
+    "id": "11",
+    "title": "Social Anxiety",
+    "description": "In front of others you constantly feel scrutinized, fear saying the wrong thing, fear being seen through as \"not good enough.\"",
+    "mechanism": "When shame is strong, attention in social settings easily focuses excessively on \"how others see me.\"",
+    "healingDirection": "Lower the catastrophic expectation of being \"found out,\" while building new experience through small doses of authentic exposure.",
+    "safePractice": "Prepare one simple opening line or exit phrase in advance to reduce the fear of the unknown."
+  },
+  {
+    "id": "12",
+    "title": "Shame-Based Anger",
+    "description": "Anger that rises quickly when you feel exposed, criticized or small—often a secondary reaction to underlying shame.",
+    "mechanism": "When toxic shame is activated, anger can surge as a way to regain a sense of power or to push the threat away.",
+    "healingDirection": "Look beneath the anger for the shame or fear it is protecting, and respond to that deeper layer.",
+    "safePractice": "When anger flares, pause and ask: \"What just made me feel small or exposed?\" Name that softer feeling first."
+  },
+  {
+    "id": "13",
+    "title": "Anger & Aggression",
+    "description": "A surge of heat, the urge to push back, control, or strike—whether expressed outward or turned inward.",
+    "mechanism": "Anger is a boundary-protecting emotion. In trauma it may become either chronically suppressed or easily explosive.",
+    "healingDirection": "Allow anger to exist as information about boundaries, and find safe ways to express or channel it.",
+    "safePractice": "In a private, safe space (journal, shower, alone), allow yourself to speak the angry words without having to justify them."
+  },
+  {
+    "id": "14",
+    "title": "Freeze Response",
+    "description": "You know you should act, flee or speak, yet the body feels pinned and unable to move. Energy is stuck.",
+    "mechanism": "Freeze is a survival response. Uncompleted fight-or-flight energy can remain held in the body.",
+    "healingDirection": "Respect the freeze. Do not force movement. Gently mobilize only when the body shows readiness.",
+    "safePractice": "Allow yourself to stay still at first and simply breathe. When the body feels even a little ready, make the smallest possible movement."
+  },
+  {
+    "id": "15",
+    "title": "Overwhelm / Collapse",
+    "description": "You feel you are about to fall apart. Emotion, pressure and fatigue surge together; you want to cry or drop.",
+    "mechanism": "When the nervous system exceeds its window of tolerance, collapse or overwhelm can appear as a protective shutdown.",
+    "healingDirection": "Reduce input, restore basic safety and regulation, then return to one small manageable piece.",
+    "safePractice": "Stop adding new tasks. Sit or lie down. Name three things you can see right now. Breathe out longer than you breathe in."
+  },
+  {
+    "id": "16",
+    "title": "Numbing & Dissociation",
+    "description": "You are not \"over it\"—you feel switched off. Joy and sadness both become muted, as if behind a layer of cotton.",
+    "mechanism": "To survive unbearable pain, the nervous system may turn down the volume on feeling.",
+    "healingDirection": "Gently reconnect with bodily sensation without forcing yourself to \"feel more.\"",
+    "safePractice": "Notice one small physical sensation (temperature of the hands, the rise and fall of the breath). Simply notice, without judging or demanding change."
+  },
+  {
+    "id": "17",
+    "title": "Fawning / People-Pleasing",
+    "description": "You keep others happy, give constantly, and lose track of yourself—\"If I am good enough, you will not leave.\"",
+    "mechanism": "When love and safety once depended on pleasing others, fawning can become an automatic survival strategy.",
+    "healingDirection": "Practice keeping a little space for yourself in small matters, and experience that relationships do not instantly collapse when you are imperfect.",
+    "safePractice": "Today, respond to one small request with \"I need to think about it first,\" then notice what happens in your body."
+  },
+  {
+    "id": "18",
+    "title": "Flight Response",
+    "description": "The strong urge to escape—leave the room, leave the conversation, leave the feeling—before anything is resolved.",
+    "mechanism": "Flight is a survival response. When old danger is sensed, the system prioritizes getting away.",
+    "healingDirection": "Acknowledge the urge to flee, then experiment with staying for one more breath or one more minute when it is actually safe.",
+    "safePractice": "When the urge to leave arises, pause and name it: \"This is the flight response.\" Then decide whether leaving is necessary or whether you can stay a little longer."
+  },
+  {
+    "id": "19",
+    "title": "Fight Response",
+    "description": "The body braces to confront, argue, control or overpower. Softness feels dangerous.",
+    "mechanism": "Fight is a protective mobilization. In trauma it can become a default way of creating safety through dominance or control.",
+    "healingDirection": "Redirect the protective energy from controlling others toward protecting your own real boundaries.",
+    "safePractice": "When the fighting energy rises, ask: \"What am I actually trying to protect right now—my boundary or my sense of control?\""
+  },
+  {
+    "id": "20",
+    "title": "Hypervigilance",
+    "description": "You are always scanning for danger, reading faces, waiting for the other shoe to drop. Rest feels unsafe.",
+    "mechanism": "After prolonged threat, the nervous system can remain on high alert even when the present is relatively safe.",
+    "healingDirection": "Gradually teach the body that periods of safety can exist, using repeated experiences of \"nothing bad happened.\"",
+    "safePractice": "Once a day, deliberately look around and name five things that indicate you are safe in this moment."
+  },
+  {
+    "id": "21",
+    "title": "Body Memory Trigger",
+    "description": "A smell, posture, tone of voice or sensation suddenly floods the body with old feeling before the mind understands why.",
+    "mechanism": "Trauma is stored not only in narrative memory but in the body. Sensory cues can reactivate those implicit memories.",
+    "healingDirection": "Orient to the present with the senses, and remind the body that the danger is not happening now.",
+    "safePractice": "Use 5-4-3-2-1: name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste."
+  },
+  {
+    "id": "22",
+    "title": "Emptiness & Hollowness",
+    "description": "There is a hollow place inside that nothing seems to fill. Everything feels muted, as if living on mute.",
+    "mechanism": "Emptiness often relates to emotional numbing, early neglect, or long-term suppression of feeling.",
+    "healingDirection": "Keep company with the emptiness rather than rushing to fill it with activity, consumption or relationships.",
+    "safePractice": "Do not hurry to fill it. Simply sit with the emptiness for one minute and notice whether anything shifts."
+  },
+  {
+    "id": "23",
+    "title": "Helplessness",
+    "description": "The sense that \"nothing I do will matter.\" The feeling of being able to choose or act has gone missing.",
+    "mechanism": "Repeated experiences of powerlessness can erode the belief that one can influence outcomes.",
+    "healingDirection": "Rebuild the sense of \"I can affect things\" through tiny choices that are fully under your control.",
+    "safePractice": "Do one small thing you can completely control (what to wear, what to drink, which task to do first)."
+  },
+  {
+    "id": "24",
+    "title": "Powerlessness",
+    "description": "You feel stripped of influence. Decisions, outcomes and even your own reactions seem outside your hands.",
+    "mechanism": "Chronic powerlessness in early environments can leave a lasting imprint on the sense of agency.",
+    "healingDirection": "Reclaim micro-agency: start with the smallest domain where choice is still available.",
+    "safePractice": "Choose one tiny preference today and honor it without explaining or justifying it to anyone."
+  },
+  {
+    "id": "25",
+    "title": "Self-Doubt",
+    "description": "You constantly feel you have not done well enough, chosen wrongly, or are not smart enough. Decisions loop endlessly.",
+    "mechanism": "When self-worth is fragile, the mind keeps second-guessing to avoid the pain of being \"wrong.\"",
+    "healingDirection": "Practice making \"good enough\" decisions and tolerating the residual uncertainty.",
+    "safePractice": "Set a short time limit for a small decision, choose, and then deliberately stop reviewing it for the rest of the day."
+  },
+  {
+    "id": "26",
+    "title": "Perfectionism Pressure",
+    "description": "You push yourself with relentless standards. Rest feels like failure; \"good enough\" feels dangerous.",
+    "mechanism": "Perfectionism often serves as a strategy to avoid shame or criticism by staying ahead of judgment.",
+    "healingDirection": "Experiment with deliberate imperfection in low-stakes areas and observe that the feared catastrophe does not occur.",
+    "safePractice": "Intentionally leave one small task \"good enough\" rather than perfect, and notice what the inner critic says."
+  },
+  {
+    "id": "27",
+    "title": "Emotional Numbing",
+    "description": "Feelings are distant. You know you \"should\" feel something, yet the volume is turned very low.",
+    "mechanism": "Numbing is a protective adaptation when feeling was once too costly or unsafe.",
+    "healingDirection": "Invite sensation back in small, tolerable doses without demanding full emotional intensity.",
+    "safePractice": "Once a day, ask: \"What am I sensing in my body right now?\" Stay with the answer for three breaths."
+  },
+  {
+    "id": "28",
+    "title": "Fear",
+    "description": "A tight, source-less tension that makes you want to flee or shrink. The body reacts before the mind understands.",
+    "mechanism": "Fear is a life-protecting signal, yet when old wounds are triggered it may be out of proportion to present reality.",
+    "healingDirection": "Build a sense of \"secure base\" so the body knows there is somewhere safe to return to.",
+    "safePractice": "Identify one safe object or place and tell yourself: \"I can return here.\" Actually feel its presence."
+  },
+  {
+    "id": "29",
+    "title": "Suppressed Anger",
+    "description": "The fire held at the bottom—afraid to express, quick to self-blame the moment it rises.",
+    "mechanism": "When anger is chronically suppressed it may turn against the self or erupt unpredictably. Healthy anger is a guardian of boundaries.",
+    "healingDirection": "Allow anger to exist and express it in safe ways instead of continuing to suppress or convert it into self-blame.",
+    "safePractice": "In a safe private setting, allow yourself to speak the angry words without needing to make them reasonable."
+  },
+  {
+    "id": "30",
+    "title": "Grief / Sadness",
+    "description": "A heavy ache in the chest. You want to cry but cannot, or once you start you cannot stop.",
+    "mechanism": "Grief is a natural channel for releasing loss and pain. Suppressing it keeps the pain stuck in other forms.",
+    "healingDirection": "Allow tears and sadness to move rather than suppressing them or rushing to \"cheer up.\"",
+    "safePractice": "If tears will not come, simply allow the feeling of \"wanting to cry\" to be present—neither forcing nor immediately stopping it."
+  },
+  {
+    "id": "31",
+    "title": "Guilt",
+    "description": "You quickly assume it is your fault, rush to apologize, and when someone is unhappy your first thought is \"Did I cause this?\"",
+    "mechanism": "If you were early on made responsible for others' emotions, it is easy to take on excessive responsibility.",
+    "healingDirection": "Distinguish what truly belongs to you from what has been over-assumed.",
+    "safePractice": "Ask: \"If someone else were in the same situation, would I blame them the same way?\" Use that standard to reassess."
+  },
+  {
+    "id": "32",
+    "title": "Everyday Shame",
+    "description": "A lighter, everyday sense of not being good enough, of being about to be found wanting—less bone-deep than toxic shame, yet still draining.",
+    "mechanism": "Everyday shame is a common background tone when self-worth is fragile.",
+    "healingDirection": "Practice being seen in your imperfection and accumulate new corrective experiences.",
+    "safePractice": "Share one small imperfection with a trusted person and practice being seen without being abandoned."
+  },
+  {
+    "id": "33",
+    "title": "Despair",
+    "description": "The deep-well feeling that \"nothing I do will help; it will never get better.\"",
+    "mechanism": "When hope has been repeatedly defeated or old helplessness is triggered, despair can become the dominant feeling.",
+    "healingDirection": "Shrink the time scale to \"today\" and counter global hopelessness with the smallest possible action.",
+    "safePractice": "Do only the smallest step available today. Do not look at the future. Do not demand that you feel hopeful."
+  },
+  {
+    "id": "34",
+    "title": "Feeling Wronged / Unseen Hurt",
+    "description": "You are hurting yet cannot speak it. You hold it in, convinced that speaking would change nothing.",
+    "mechanism": "When important feelings went long unanswered, it is easy to learn to swallow the sense of being wronged.",
+    "healingDirection": "First give your own feelings the recognition they need, then decide whether to share them with others.",
+    "safePractice": "In a journal write: \"Today I felt wronged because...\" Write it only for yourself—complete one act of self-recognition."
+  },
+  {
+    "id": "35",
+    "title": "Unworthiness",
+    "description": "When something good arrives, the first reaction is \"I don't deserve this\" or \"They will eventually see I am not that good.\"",
+    "mechanism": "When self-worth is built on \"I must be good enough to be accepted,\" it becomes hard to receive what rightfully belongs to you.",
+    "healingDirection": "Practice receiving kindness without explanation or refusal, challenging the automatic \"I don't deserve it.\"",
+    "safePractice": "Accept one small kindness or compliment. Say only \"thank you\"—no explaining, no refusing, no diminishing yourself."
+  },
+  {
+    "id": "36",
+    "title": "Fragile Self-Worth",
+    "description": "Self-worth feels like thin ice. The slightest breeze cracks it. It needs constant external approval to stay intact.",
+    "mechanism": "When self-worth depends mainly on outside evaluation, it becomes unstable and easily shattered.",
+    "healingDirection": "Through steady small self-affirmations, gradually thicken the inner sense of worth.",
+    "safePractice": "Each day write down three things you did, however small, as an internal record."
+  }
+]

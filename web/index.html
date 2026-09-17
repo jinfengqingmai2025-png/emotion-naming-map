@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emotion Naming Map</title>
+    <link rel="stylesheet" href="/web/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <p class="eyebrow">EMOTION NAMING MAP · OPEN SOURCE DEMO</p>
+        <h1>Name what is here.<br /><em>Choose one gentle next step.</em></h1>
+        <p class="intro">A structured self-reflection tool for moments when a feeling is real, but its name is hard to find.</p>
+        <div class="notice"><strong>Scope:</strong> educational reflection only. This is not medical advice, diagnosis, psychotherapy, or crisis support.</div>
+      </header>
+
+      <section class="controls" aria-label="Card controls">
+        <label class="search"><span>Search cards</span><input id="search" type="search" placeholder="e.g. shame, fear, numbness" /></label>
+        <button id="random" class="button" type="button">Choose a card</button>
+      </section>
+
+      <section id="cards" class="cards" aria-live="polite"></section>
+
+      <footer>
+        <p>If you may harm yourself or someone else, stop using this tool and contact local emergency services or an appropriate crisis resource.</p>
+        <p><a href="https://github.com/jinfengqingmai2025-png/emotion-naming-map">Source repository</a> · Code under MIT; content licensing is documented separately.</p>
+      </footer>
+    </main>
+    <script type="module" src="/web/app.js"></script>
+  </body>
+</html>

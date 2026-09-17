@@ -1,0 +1,14 @@
+{
+  "name": "emotion-naming-map",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A safety-aware, browser-based self-reflection tool for naming difficult feelings.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate_cards.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
