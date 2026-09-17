@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jinfengqingmai2025-png/emotion-naming-map/blob/main/data/card.schema.json",
+  "title": "Emotion Naming Map card",
+  "type": "object",
+  "required": ["id", "title", "description", "mechanism", "healingDirection", "safePractice"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[0-9]{2}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "mechanism": { "type": "string", "minLength": 1 },
+    "healingDirection": { "type": "string", "minLength": 1 },
+    "safePractice": { "type": "string", "minLength": 1, "maxLength": 420 }
+  },
+  "additionalProperties": false
+}

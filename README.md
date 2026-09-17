@@ -25,9 +25,12 @@ Then open <http://localhost:4173>.
 ## Project structure
 
 - `data/cards.json` — structured card content.
+- `data/card.schema.json` — the machine-readable card shape.
 - `web/` — dependency-free browser demo.
 - `scripts/validate_cards.mjs` — schema and safety checks.
 - `content/` — provenance and editorial scope notes.
+
+Every push and pull request runs the card validator through GitHub Actions. The project is intentionally small enough for a maintainer to review every content change.
 
 ## Editorial scope
 
