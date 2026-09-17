@@ -2,6 +2,8 @@
 
 Emotion Naming Map is a small, open-source, browser-based self-reflection tool for naming difficult feelings and choosing one low-pressure grounding step.
 
+Live demo: <https://jinfengqingmai2025-png.github.io/emotion-naming-map/>
+
 It is built around a structured set of 36 cards. Each card separates four things:
 
 - what the feeling may feel like;
