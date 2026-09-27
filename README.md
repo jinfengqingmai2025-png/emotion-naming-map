@@ -1,45 +1,58 @@
-# Emotion Naming Map
+# Emotion Naming Map (照见 Seen)
 
-Emotion Naming Map is a small, open-source, browser-based self-reflection tool for naming difficult feelings and choosing one low-pressure grounding step.
+A self-reflection tool with **10 professional assessments** and **36 emotion cards**, featuring a contemporary art-inspired dark design.
 
-It is built around a structured set of 36 cards. Each card separates four things:
+## Live Demo
 
-- what the feeling may feel like;
-- a plain-language mechanism hypothesis;
-- a direction for reflection;
-- one small, safety-aware practice.
+🔗 [https://jinfengqingmai2025-png.github.io/emotion-naming-map/](https://jinfengqingmai2025-png.github.io/emotion-naming-map/)
 
-The project is intentionally educational. It is not medical advice, does not diagnose, treat, or cure any condition, and is not a substitute for psychotherapy, medical care, or crisis support.
+## Features
 
-## Run locally
+### 10 Assessment Scales
+| Scale | Questions | Category |
+|-------|-----------|----------|
+| SCL-90 | 90 | Clinical |
+| PHQ-9 | 9 | Clinical |
+| GAD-7 | 7 | Clinical |
+| Self-Compassion Scale (SCS) | 26 | Emotion |
+| Personality Type (MBTI-style) | 28 | Personality |
+| Big Five | 30 | Personality |
+| Attachment ECR-R | 36 | Relationships |
+| Love Languages | 30 | Relationships |
+| DISC Behavioral Style | 24 | Behavior |
+| Grit Self-Assessment | 8 | Goals |
 
-No dependency install is required.
+### 36 Emotion Cards
+Trauma recovery and self-compassion themed cards covering: toxic shame, fear, despair, anger, grief, numbness, anxiety, self-doubt, and more.
+
+### Language Support
+- 简体中文 (Simplified Chinese)
+- 繁體中文 (Traditional Chinese)
+- English
+
+### Design
+Contemporary art-inspired dark theme with coral/amber accent colors, GSAP-style animations, mouse-follow glow effects, and responsive layout.
+
+## Run Locally
 
 ```bash
 npm run validate
 npm run serve
 ```
 
-Then open <http://localhost:4173>.
+Then open [http://localhost:4173](http://localhost:4173).
 
-## Project structure
+## Project Structure
 
-- `data/cards.json` — structured card content.
-- `data/card.schema.json` — the machine-readable card shape.
-- `web/` — dependency-free browser demo.
-- `scripts/validate_cards.mjs` — schema and safety checks.
-- `content/` — provenance and editorial scope notes.
-
-Every push and pull request runs the card validator through GitHub Actions. The project is intentionally small enough for a maintainer to review every content change.
-
-## Editorial scope
-
-The source material was written for this project and substantially re-expressed from publicly discussed trauma-recovery concepts. References are documented in `content/SOURCE_NOTES.md`. The project avoids claims of diagnosis, guaranteed healing, or clinical efficacy.
-
-## Safety
-
-If a user is in immediate danger or may harm themselves, the tool should not be used as crisis support. Contact local emergency services or a local crisis resource instead. See `SECURITY.md` for responsible disclosure and scope guidance.
+```
+site/          — Deployed website (index.html, app.js, styles.css, data.js)
+web/           — Mirror of site/
+data/          — Card schema and data
+scripts/       — Build and validation scripts
+.github/       — GitHub Actions workflows
+content/       — Source notes and licensing
+```
 
 ## License
 
-Code is licensed under the MIT License. The card content is marked separately in `content/CONTENT_LICENSE.md` so that the code and authored educational material are not confused.
+Code: MIT License. Card content: All rights reserved (see `content/CONTENT_LICENSE.md`).
