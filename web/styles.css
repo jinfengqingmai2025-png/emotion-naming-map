@@ -10,7 +10,6 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--accent) var(--bg); }
 body { font-family: 'Space Grotesk', -apple-system, sans-serif; background: var(--bg); color: var(--text-primary); line-height: 1.7; overflow-x: hidden; min-height: 100vh; }
-@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 h1,h2,h3,h4,h5,h6 { font-family: 'Clash Display', serif; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
 
