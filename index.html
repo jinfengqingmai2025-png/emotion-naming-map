@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>照见 Seen — 自我探索工具</title>
+  <link rel="stylesheet" href="/site/styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-brand">照见 <span>Seen</span></a>
+    <div class="nav-links">
+      <a href="#scales" class="nav-link">量表测评</a>
+      <a href="#cards" class="nav-link">情绪卡片</a>
+      <a href="#about" class="nav-link">关于</a>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="cn">简</button>
+        <button class="lang-btn" data-lang="tw">繁</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">SELF-REFLECTION TOOL</p>
+      <h1>Name what is <em>here</em>.</h1>
+      <p class="hero-subtitle">Choose one gentle next step.</p>
+      <p class="hero-desc">A structured self-reflection tool for moments when a feeling is real, but its name is hard to find.</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="#scales" class="btn btn-primary">开始测评</a>
+        <a href="#cards" class="btn btn-secondary">浏览情绪卡片</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="scales" style="padding-top:120px;">
+    <div class="container">
+      <div class="section-header">
+        <h2>选择一种测评</h2>
+        <div class="accent-line"></div>
+        <p>找到适合你的量表，开始探索自己</p>
+      </div>
+      <div class="cards-search">
+        <input type="search" class="search-input" id="scaleSearch" placeholder="搜索量表..." />
+      </div>
+      <div class="scales-grid" id="scalesGrid"></div>
+    </div>
+  </section>
+
+  <section id="assessment" style="padding-top:120px;display:none;">
+    <div class="container">
+      <div class="assessment-container">
+        <div class="assessment-progress">
+          <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+          <div class="progress-text" id="progressText">0/0</div>
+        </div>
+        <div class="question-card" id="questionCard">
+          <h3 id="questionText"></h3>
+          <div class="scale-options" id="scaleOptions"></div>
+        </div>
+        <div class="assessment-nav">
+          <button class="btn btn-secondary btn-sm" id="btnSkip">跳过</button>
+          <button class="btn btn-secondary btn-sm" id="btnBack">上一题</button>
+          <button class="btn btn-primary btn-sm" id="btnNext">下一题</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results" style="padding-top:120px;display:none;">
+    <div class="container">
+      <div class="results-container" id="resultsContainer"></div>
+    </div>
+  </section>
+
+  <section id="cards" class="cards-page" style="padding-top:120px;">
+    <div class="container">
+      <div class="cards-header">
+        <h1>情绪命名<em>地图</em></h1>
+        <div class="accent-line"></div>
+        <p>36 张卡片 · 探索你的感受</p>
+      </div>
+      <div class="cards-search">
+        <input type="search" class="search-input" id="cardSearch" placeholder="搜索情绪..." />
+        <button class="random-btn" id="randomCard">随机一张</button>
+      </div>
+      <div class="cards-grid" id="cardsGrid"></div>
+    </div>
+  </section>
+
+  <section id="about" style="padding-top:120px;">
+    <div class="container">
+      <div class="section-header">
+        <h2>关于照见</h2>
+        <div class="accent-line"></div>
+        <p>照见 Seen 是一个面向中文用户的自我探索工具</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal"><div class="icon">📊</div><h3>10 套专业量表</h3><p>临床、情绪、性格、关系、行为、目标六大维度</p></div>
+        <div class="about-card reveal"><div class="icon">🃏</div><h3>36 张情绪卡片</h3><p>命名难以言说的感受，找到疗愈方向</p></div>
+        <div class="about-card reveal"><div class="icon">🎯</div><h3>智能结果推荐</h3><p>测评后自动匹配最相关的情绪卡片</p></div>
+        <div class="about-card reveal"><div class="icon">🔒</div><h3>隐私至上</h3><p>所有数据仅存储在浏览器本地，永不上传</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="crisis-notice"><strong>安全提示：</strong>如果你可能伤害自己或他人，请停止使用本工具并联系当地紧急服务或适当危机资源。</div>
+    <p class="rights">代码采用 MIT 许可证；内容授权另见文档。</p>
+    <p class="version">照见 Seen · 2026</p>
+  </footer>
+
+  <script src="/site/data.js"></script>
+  <script src="/site/app.js"></script>
+</body>
+</html>
