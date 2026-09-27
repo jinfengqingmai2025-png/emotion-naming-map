@@ -98,9 +98,10 @@ function renderScales() {
 
 function startAssessment(scaleId) {
   currentScale = SCALES.find(s => s.id === scaleId);
-  if (!currentScale) return;
+  if (!currentScale) { console.error('Scale not found:', scaleId); return; }
   currentQuestion = 0;
   const qData = SCALE_QUESTIONS[scaleId];
+  if (!qData || !qData.questions) { console.error('No questions for scale:', scaleId); return; }
   answers = new Array(qData.questions.length).fill(null);
   document.getElementById('scales').style.display = 'none';
   document.getElementById('assessment').style.display = 'block';
@@ -108,7 +109,7 @@ function startAssessment(scaleId) {
   renderQuestion();
 }
 
-function getQuestions() { return (SCALE_QUESTIONS[currentScale.id] || {}).questions || []; }
+function getQuestions() { return currentScale ? (SCALE_QUESTIONS[currentScale.id] || {}).questions || [] : []; }
 
 function renderQuestion() {
   const questions = getQuestions();
@@ -136,6 +137,7 @@ function selectOption(value) {
   document.querySelectorAll('.scale-option').forEach(btn => btn.classList.toggle('selected', parseInt(btn.textContent) === value));
   setTimeout(() => {
     const questions = getQuestions();
+    if (!questions.length) return;
     if (currentQuestion < questions.length - 1) { currentQuestion++; renderQuestion(); }
     else { document.getElementById('btnNext').click(); }
   }, 300);
@@ -143,6 +145,7 @@ function selectOption(value) {
 
 document.getElementById('btnNext').addEventListener('click', () => {
   const questions = getQuestions();
+  if (!questions.length) return;
   if (currentQuestion >= questions.length - 1) showResults();
   else { currentQuestion++; renderQuestion(); }
 });
@@ -151,6 +154,7 @@ document.getElementById('btnBack').addEventListener('click', () => {
 });
 document.getElementById('btnSkip').addEventListener('click', () => {
   const questions = getQuestions();
+  if (!questions.length) return;
   if (currentQuestion < questions.length - 1) { currentQuestion++; renderQuestion(); }
   else showResults();
 });
