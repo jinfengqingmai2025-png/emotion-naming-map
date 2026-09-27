@@ -72,7 +72,7 @@ function showPage(page) {
   currentPage = page;
   if (page === 'hero') document.getElementById('hero').style.display = 'flex';
   else if (page === 'scales') { document.getElementById('scales').style.display = 'block'; renderScales(); }
-  else if (page === 'assessment') { document.getElementById('assessment').style.display = 'block'; startAssessment(); }
+  else if (page === 'assessment') { document.getElementById('assessment').style.display = 'block'; }
   else if (page === 'results') { document.getElementById('results').style.display = 'block'; }
   else if (page === 'cards') { document.getElementById('cards').style.display = 'block'; renderCards(); }
   else if (page === 'about') document.getElementById('about').style.display = 'block';
