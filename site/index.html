@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>照见 Seen — 自我探索工具</title>
   <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <div class="cursor-glow" id="cursorGlow"></div>
@@ -23,48 +23,44 @@
     </div>
   </nav>
 
-  <section class="hero" id="hero">
+  <section id="hero" class="hero">
     <div class="hero-content">
-      <p class="hero-eyebrow">SELF-REFLECTION TOOL</p>
-      <h1>Name what is <em>here</em>.</h1>
-      <p class="hero-subtitle">Choose one gentle next step.</p>
-      <p class="hero-desc">A structured self-reflection tool for moments when a feeling is real, but its name is hard to find.</p>
+      <div class="hero-eyebrow" data-i18n="hero.title"></div>
+      <h1 data-i18n="hero.title">Name what is here.</h1>
+      <div class="hero-subtitle" data-i18n="hero.sub">Choose one gentle next step.</div>
+      <div class="hero-desc" data-i18n="hero.desc">A structured self-reflection tool for moments when a feeling is real, but its name is hard to find.</div>
       <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
-        <a href="#scales" class="btn btn-primary">开始测评</a>
-        <a href="#cards" class="btn btn-secondary">浏览情绪卡片</a>
+        <a href="#scales" class="btn btn-primary" data-i18n="scales.nav">量表测评</a>
+        <a href="#cards" class="btn btn-secondary" data-i18n="cards.nav">情绪卡片</a>
       </div>
     </div>
   </section>
 
   <section id="scales" style="display:none;padding-top:120px;">
     <div class="container">
-      <div class="section-header">
-        <h2>选择一种测评</h2>
-        <div class="accent-line"></div>
-        <p>找到适合你的量表，开始探索自己</p>
-      </div>
-      <div class="cards-search">
-        <input type="search" class="search-input" id="scaleSearch" placeholder="搜索量表..." />
-      </div>
-      <div class="scales-grid" id="scalesGrid"></div>
+      <div class="section-header"><h2 data-i18n="scales.title">选择一种测评</h2><div class="accent-line"></div></div>
+      <div class="subtitle" data-i18n="scales.subtitle">找到适合你的量表，开始探索自己</div>
+      <input type="text" id="scaleSearch" placeholder="搜索量表..." data-i18n-placeholder="scales.search" style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);width:100%;max-width:400px;margin-bottom:24px;font-size:16px;">
+      <div id="scalesGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;"></div>
     </div>
   </section>
 
   <section id="assessment" style="display:none;padding-top:120px;">
     <div class="container">
-      <div class="assessment-container">
-        <div class="assessment-progress">
-          <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
-          <div class="progress-text" id="progressText">0/0</div>
+      <div style="max-width:600px;margin:0 auto;">
+        <div id="progressBar" style="height:4px;background:var(--border);border-radius:2px;margin-bottom:32px;overflow:hidden;">
+          <div id="progressFill" style="height:100%;background:var(--accent);width:0%;transition:width .3s;"></div>
         </div>
-        <div class="question-card" id="questionCard">
-          <h3 id="questionText"></h3>
-          <div class="scale-options" id="scaleOptions"></div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:16px;">
+          <span id="progressText" style="color:var(--text-muted);font-size:14px;"></span>
+          <span id="totalText" style="color:var(--text-muted);font-size:14px;"></span>
         </div>
-        <div class="assessment-nav">
-          <button class="btn btn-secondary btn-sm" id="btnSkip">跳过</button>
-          <button class="btn btn-secondary btn-sm" id="btnBack">上一题</button>
-          <button class="btn btn-primary btn-sm" id="btnNext">下一题</button>
+        <div id="questionText" style="font-size:20px;margin-bottom:32px;color:var(--text-primary);line-height:1.8;"></div>
+        <div id="scaleOptions" style="display:flex;flex-direction:column;gap:12px;"></div>
+        <div style="display:flex;gap:12px;margin-top:24px;justify-content:center;">
+          <button id="btnBack" class="btn btn-secondary" data-i18n="assessment.back">返回</button>
+          <button id="btnSkip" class="btn btn-secondary" data-i18n="assessment.skip">跳过</button>
+          <button id="btnNext" class="btn btn-primary" data-i18n="assessment.next">下一题</button>
         </div>
       </div>
     </div>
@@ -72,48 +68,35 @@
 
   <section id="results" style="display:none;padding-top:120px;">
     <div class="container">
-      <div class="results-container" id="resultsContainer"></div>
+      <div id="resultsContainer"></div>
     </div>
   </section>
 
-  <section id="cards" style="display:none;">
+  <section id="cards" class="cards-page" style="display:none;padding-top:120px;">
     <div class="container">
-      <div class="cards-header">
-        <h1>情绪命名<em>地图</em></h1>
-        <div class="accent-line"></div>
-        <p>36 张卡片 · 探索你的感受</p>
+      <div class="section-header"><h2 data-i18n="cards.title">情绪命名地图</h2><div class="accent-line"></div></div>
+      <div class="subtitle" data-i18n="cards.subtitle">36 张卡片 · 探索你的感受</div>
+      <input type="text" id="cardSearch" placeholder="搜索情绪..." data-i18n-placeholder="cards.search" style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);width:100%;max-width:400px;margin-bottom:24px;font-size:16px;">
+      <div style="display:flex;gap:12px;margin-bottom:24px;justify-content:center;">
+        <button id="randomCard" class="btn btn-secondary" data-i18n="cards.random">随机一张</button>
       </div>
-      <div class="cards-search">
-        <input type="search" class="search-input" id="cardSearch" placeholder="搜索情绪..." />
-        <button class="random-btn" id="randomCard">随机一张</button>
-      </div>
-      <div class="cards-grid" id="cardsGrid"></div>
+      <div id="cardsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;"></div>
     </div>
   </section>
 
   <section id="about" style="display:none;padding-top:120px;">
-    <div class="container">
-      <div class="section-header">
-        <h2>关于照见</h2>
-        <div class="accent-line"></div>
-        <p>照见 Seen 是一个面向中文用户的自我探索工具</p>
-      </div>
-      <div class="about-grid">
-        <div class="about-card reveal"><div class="icon">📊</div><h3>10 套专业量表</h3><p>临床、情绪、性格、关系、行为、目标六大维度</p></div>
-        <div class="about-card reveal"><div class="icon">🃏</div><h3>36 张情绪卡片</h3><p>命名难以言说的感受，找到疗愈方向</p></div>
-        <div class="about-card reveal"><div class="icon">🎯</div><h3>智能结果推荐</h3><p>测评后自动匹配最相关的情绪卡片</p></div>
-        <div class="about-card reveal"><div class="icon">🔒</div><h3>隐私至上</h3><p>所有数据仅存储在浏览器本地，永不上传</p></div>
+    <div class="container" style="text-align:center;">
+      <h2 data-i18n="about.title">关于照见</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-top:32px;">
+        <div class="card"><h3 data-i18n="about.feature1">10 套专业量表</h3></div>
+        <div class="card"><h3 data-i18n="about.feature2">36 张情绪卡片</h3></div>
+        <div class="card"><h3 data-i18n="about.feature3">智能结果推荐</h3></div>
+        <div class="card"><h3 data-i18n="about.feature4">隐私至上</h3></div>
       </div>
     </div>
   </section>
 
-  <footer id="footer">
-    <div class="crisis-notice"><strong>安全提示：</strong>如果你可能伤害自己或他人，请停止使用本工具并联系当地紧急服务或适当危机资源。</div>
-    <p class="rights">代码采用 MIT 许可证；内容授权另见文档。</p>
-    <p class="version">照见 Seen · 2026</p>
-  </footer>
-
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="/data.js"></script>
+  <script src="/app.js"></script>
 </body>
 </html>
