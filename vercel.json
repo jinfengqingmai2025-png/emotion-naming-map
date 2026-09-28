@@ -1,16 +1,6 @@
 {
-  "name": "emotion-naming-map",
-  "framework": "static",
   "regions": ["iad1"],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    }
-  ]
+  "outputDirectory": "public",
+  "headers": [{"source": "/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]}],
+  "routes": [{"src": "/(.*)", "dest": "/index.html"}]
 }
